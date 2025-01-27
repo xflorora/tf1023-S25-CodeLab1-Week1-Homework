@@ -25,9 +25,9 @@ public class WASDController : MonoBehaviour
         if (Input.GetKey(keyUp))
         {
             rb.AddForce(Vector3.forward * moveForce);
-            rb.linearVelocity = Vector3.forward * moveForce;
+            
         }
-        
+
         if (Input.GetKey(keyDown))
         {
             rb.AddForce(Vector3.back * moveForce);
